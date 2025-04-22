@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* Header Top */
+body{
+    width: 100%;
+
+}
+.logo{
+    margin-left: 10px;
+}
+.top-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-img{
+   width: 100px;
+}
+
+  .searchbar {
+    display: flex;
+  }
+  .searchbar input{
+    padding: 10px 100px;
+  }
+ .searchbar i{
+    border: 2px solid #03a3b2;
+    background-color: #03a3b2;
+    color: white;
+    padding: 13px;
+ }
+
+.your-info{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+
+/* Header Bottom */
+#three-lines{
+    display: none;
+}
+.bottom-div{
+   
+    position: sticky;
+    /* top: 0; */
+    z-index: 1;
+    /* width: 100%; */
+
+}
+.bottom-div ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color:#03a3b2;
+    padding: 10px ;
+    margin-bottom: 0;
+}
+.bottom-div a{
+ text-decoration: none;  
+ color: white; 
+ outline: none;
+}
+#cancel-button{
+    font-size: x-large;
+}
+.hidden-menu{
+   
+    padding: 20px;
+   background-color: #d6f0f3;
+   width: 250px;
+   position: fixed;
+    right: -350px;
+    top: 0;
+    transition: 0.3s;
+    z-index: 999;
+}
+.hidden-menu ul{
+    list-style: none;
+    line-height: 300%; 
+    
+}
+.hidden-menu a{
+    text-decoration: none;  
+    color: black;
+}
+
+
+/* content1 - second */
+.carousel-indicators button{
+    outline: none;
+}
+.carousel-caption button{
+    border: 2px solid #03a3b2;
+    background: #03a3b2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.content1{
+   background-color: #03a3b229;
+}
+.categories-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.second-all-categories{
+    padding: 50px ;
+}
+
+.second-all-categories img{
+    border: 2px solid #03a3b2;
+}
+.second-all-categories .card-body{
+    background-color: #03a3b2;
+    color: white;
+}
+
+.categories-heading button{
+    border: 2px solid #03a3b2;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.combos-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.combos-heading button{
+    border: 2px solid #03a3b2;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.third-combos,.third-combos-hidden{
+    padding: 50px ;
+  
+}
+.third-combos-hidden{
+    display: none;
+}
+ .card{
+    margin: 10px;
+    border: 2px solid white;
+}
+.text-body-secondary button{
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+}
+.text-body-secondary button:hover{
+   background-color: rgb(184, 137, 153);
+   color: white;
+}
+
+.forth-our-display img{
+   padding: 50px;
+   width: 100%;
+}
+
+.first-our-display img{
+    padding: 50px;
+    width: 100%;
+}
+.second-daily-essentials{
+    padding: 50px;
+}
+.daily-essentials-heading{
+   margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hot-this-weekend,.hot-this-weekend-hidden{
+    padding: 50px;
+    background-color: #d6f0f3;
+}
+.hot-this-weekend-hidden{
+    display: none;
+}
+.hot-this-weekend .lower-navdiv, .hot-this-weekend-hidden .lower-navdiv{
+    margin: 20px 0;
+}
+
+.hot-this-weekend-content{
+    display: flex;
+   
+}
+.hot-this-weekend-img{
+    background-image: url("girlwithlipstick.jpg");
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+}
+.hot-this-weekend-cards{
+    width: 60%;
+}
+.uppercontentonimage , .upperimagecontent{
+    margin: 20px;
+    color: white;
+}
+
+.lip-tint-balm,.lip-tint-balm-hidden{
+    padding: 50px
+}
+.lip-tint-balm-heading{
+    background-image: url("");
+}
+.lip-tint-balm-heading .upper-navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lip-tint-balm-heading .upper-navdiv h1{
+    margin-bottom: 20px;
+}
+.lip-tint-balm-img{
+    background-image: url("tint.jpg");
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+}
+.lip-tint-balm-content{
+    display: flex;
+}
+.lip-tint-balm-cards{
+    width: 60%;
+}
+.reliablity{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  padding: 50px;
+}
+.reliablity i{
+    font-size: 60px;
+}
+.case1, .case2, .case3, .case4{
+    border: 2px solid whitesmoke;
+    padding: 20px;
+}
+.daily-essentials-heading button,.lower-navdiv button,.uppercontentonimage button , .upperimagecontent button,.lip-tint-balm-heading .upper-navdiv button,.case1 button{
+    border: 2px solid #03a3b2;
+    padding: 10px 20px;
+    border-radius: 50px;
+   background-color: #03a3b2;
+   color: white;
+}
+.footer{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+.upper-footer .about-company{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+.upper-footer .contact-to-company{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+}
+.upper-footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.lower-footer{
+    text-align: center;
+}
+
+.card:hover{
+
+    border: 2px solid black;
+}
+.col{
+    margin-bottom: 10px;
+}
+@media(min-width:937px){
+.hidden-menu{
+    display: none;
+}
+}
+@media(max-width:936px){
+    .third-combos-hidden,.hot-this-weekend-hidden, .lip-tint-balm-hidden{
+        display: block;
+    }
+    .third-combos, .hot-this-weekend, .lip-tint-balm{
+        display: none;
+    }
+    .autoplay-slider img{
+        height: auto;
+    }
+    .your-info{
+        width: 40%;
+        font-size: larger;
+    }
+    .text-body-secondary button , .categories-heading button {
+        font-size:1rem;
+    }
+    .bottom-div, .searchbar{
+        display: none;
+    }
+    #three-lines{
+        display: block;
+    }
+    .top-div{
+        justify-content: space-between;
+    }
+    .hot-this-weekend-hidden .lower-navdiv button{
+        padding: 5px ;
+    }
+     .forth-our-display img, .first-our-display img{
+        padding: 20px 10px;
+    }
+    .second-all-categories,.third-combos-hidden,.second-daily-essentials,.hot-this-weekend-hidden, .lip-tint-balm-hidden, .reliablity, .footer{
+        padding: 20px 10px;
+    }
+    .lip-tint-balm-content, .hot-this-weekend-content{
+        display: block;
+    }
+    .lip-tint-balm-img, .lip-tint-balm-cards, .hot-this-weekend-img,.hot-this-weekend-cards{
+        width: 100%;
+    }
+    
+    .categories-heading , .combos-heading {
+       display: block;
+    }
+  
+    
+}
+@media(max-width:768px){
+    
+    .upper-footer .contact-to-company{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+  
+}
+@media(max-width:564px){
+   
+    .reliablity i{
+        font-size: 30px;
+    }
+    .case1 button{
+        padding: 5px;
+    }
+
+    .reliablity {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .text-body-secondary button{
+       border: 2px solid palevioletred;
+      background-color: palevioletred;
+    }
+    .categories-heading button, .combos-heading button, .daily-essentials-heading button,.lower-navdiv button,.uppercontentonimage button , .upperimagecontent button,.lip-tint-balm-heading .upper-navdiv button,.case1 button{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .hot-this-weekend-img, .lip-tint-balm-img{
+        justify-content: center;
+    }
+    .upper-footer .contact-to-company{
+        font-size: 10px;
+    }
+}
+
+
+
+.four-dives i{
+    font-size: xx-large;
+   margin-right: 10px;
+   
+}
+.four-dives p{
+    position: fixed;
+    z-index: 999;
+   background-color: pink;
+   padding: 10px;
+   border: 2px solid pink;
+   border-radius: 10px 0 0 10px;
+   transition: 0.3s;
+   margin-bottom: 0;
+}
+.p1{
+    top: 300px;
+    right: -115px;
+}
+.p2{
+    top: 360px;
+    right: -75px;
+}
+.p3{
+    top: 420px;
+    right: -72px;
+}
+.p4{
+    top: 480px;
+    right: -82px;
+}
+
+.four-dives p:hover{
+    right: 0;
+}
+.more-about-us i, .more-about-us-cancel-btn i{
+    color:white;
+    font-size: xx-large;
+    position: fixed;
+    left: 5px;
+    bottom: 100px;
+   z-index: 999;
+   background: #0c474c;
+   border-radius: 50px;
+    padding: 10px 12px;
+    border: 2px solid rgb(242, 60, 90);
+    border-radius: 50px;
+   background-color:  rgb(242, 60, 90);
+}
+.more-about-us-cancel-btn{
+    display: none;
+}
+.whatsapp-contact i{
+    color:white;
+    font-size: xx-large;
+    position: fixed;
+    right: 5px;
+    bottom: 100px;
+   z-index: 999;
+    padding: 10px 12px;
+    border: 2px solid green;
+    border-radius: 50px;
+   background-color: green;
+}
+
+
+
+
+
+
+/* Product.html file CSS */
+
+.productdiv1{
+    display: flex;
+   margin: 100px;
+}
+
+#like-products {
+    font-size: x-large;
+   color: red;
+}
+.productdivimg{
+    width: 50%;
+}
+.productdivcontent{
+    width: 50%;
+    padding: 30px;
+}  
+.contentheading{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.priceofproduct .discount{
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid hsl(340, 80%, 64%);
+    background-color: hsl(340, 80%, 64%);
+    border-radius: 50px;
+    color: white;
+    margin: 0 10px;
+}
+.priceofproduct {
+    margin-bottom: 0;
+}
+
+.on-EMI{
+    display: flex;
+}
+.quantitydiv{
+    margin: 20px;
+}
+.quantitydiv button{
+    padding: 0 5px;
+}
+.plus-minus{
+  padding: 5px 10px;
+    width: fit-content;
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.plus-minus button{
+    border: none;
+    background-color: white;
+}
+
+#value{
+    margin: 0 10px;
+}
+
+.desc_btn button{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color:#f04981;
+}
+.share-help a
+{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+.share-help i{
+    margin-right: 5px;
+}
+.parent_div{
+    margin: 100px;
+}
+.desc_btn{
+   
+    display: flex;
+     align-items: center;
+      justify-content: space-evenly;
+      margin: 100px;
+}
+@media(max-width:987px){
+    .productdiv1, .desc_btn,.parent_div{
+        margin: 20px 10px;
+    }
+    
+}
+@media(max-width:768px){
+    .productdiv1{
+        display: block;
+        
+    }
+    .productdivimg, .productdivcontent{
+        width: 100%;
+    }
+    .desc_btn{
+       flex-direction: column;
+       align-items: start;
+    }
+
+}
