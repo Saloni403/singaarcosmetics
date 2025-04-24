@@ -1,41 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 /* Header Top */
-body{
+body {
     width: 100%;
 
 }
-.logo{
+
+.logo {
     margin-left: 10px;
 }
-.top-div{
+
+.top-div {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.logo-img{
-   width: 100px;
+.logo-img {
+    width: 100px;
 }
 
-  .searchbar {
+.searchbar {
     display: flex;
-  }
-  .searchbar input{
+}
+
+.searchbar input {
     padding: 10px 100px;
-  }
- .searchbar i{
+}
+
+.searchbar i {
     border: 2px solid #03a3b2;
     background-color: #03a3b2;
     color: white;
     padding: 13px;
- }
+}
 
-.your-info{
+.your-info {
     width: 20%;
     display: flex;
     align-items: center;
@@ -44,61 +49,69 @@ body{
 }
 
 /* Header Bottom */
-#three-lines{
+#three-lines {
     display: none;
 }
-.bottom-div{
-   
+
+.bottom-div {
+
     position: sticky;
     /* top: 0; */
     z-index: 1;
     /* width: 100%; */
 
 }
-.bottom-div ul{
+
+.bottom-div ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
-    background-color:#03a3b2;
-    padding: 10px ;
+    background-color: #03a3b2;
+    padding: 10px;
     margin-bottom: 0;
 }
-.bottom-div a{
- text-decoration: none;  
- color: white; 
- outline: none;
+
+.bottom-div a {
+    text-decoration: none;
+    color: white;
+    outline: none;
 }
-#cancel-button{
+
+#cancel-button {
     font-size: x-large;
 }
-.hidden-menu{
-   
+
+.hidden-menu {
+
     padding: 20px;
-   background-color: #d6f0f3;
-   width: 250px;
-   position: fixed;
+    background-color: #d6f0f3;
+    width: 250px;
+    position: fixed;
     right: -350px;
     top: 0;
     transition: 0.3s;
     z-index: 999;
 }
-.hidden-menu ul{
+
+.hidden-menu ul {
     list-style: none;
-    line-height: 300%; 
-    
+    line-height: 300%;
+
 }
-.hidden-menu a{
-    text-decoration: none;  
+
+.hidden-menu a {
+    text-decoration: none;
     color: black;
 }
 
 
 /* content1 - second */
-.carousel-indicators button{
+.carousel-indicators button {
     outline: none;
 }
-.carousel-caption button{
+
+.carousel-caption button {
     border: 2px solid #03a3b2;
     background: #03a3b2;
     color: white;
@@ -106,100 +119,119 @@ body{
     border-radius: 50px;
 }
 
-.content1{
-   background-color: #03a3b229;
+.content1 {
+    background-color: #03a3b229;
 }
-.categories-heading{
+
+.categories-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.second-all-categories{
-    padding: 50px ;
+
+.second-all-categories {
+    padding: 50px;
 }
 
-.second-all-categories img{
+.second-all-categories img {
     border: 2px solid #03a3b2;
 }
-.second-all-categories .card-body{
+
+.second-all-categories .card-body {
     background-color: #03a3b2;
     color: white;
 }
 
-.categories-heading button{
+.categories-heading button {
     border: 2px solid #03a3b2;
     padding: 10px 20px;
     border-radius: 50px;
 }
-.combos-heading{
+
+.combos-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.combos-heading button{
+
+.combos-heading button {
     border: 2px solid #03a3b2;
     padding: 10px 20px;
     border-radius: 50px;
 }
-.third-combos,.third-combos-hidden{
-    padding: 50px ;
-  
+
+.third-combos,
+.third-combos-hidden {
+    padding: 50px;
+
 }
-.third-combos-hidden{
+
+.third-combos-hidden {
     display: none;
 }
- .card{
+
+.card {
     margin: 10px;
     border: 2px solid white;
 }
-.text-body-secondary button{
+
+.text-body-secondary button {
     width: 100%;
     border: none;
     font-size: 20px;
     background-color: white;
 }
-.text-body-secondary button:hover{
-   background-color: rgb(184, 137, 153);
-   color: white;
+
+.text-body-secondary button:hover {
+    background-color: rgb(184, 137, 153);
+    color: white;
 }
 
-.forth-our-display img{
-   padding: 50px;
-   width: 100%;
-}
-
-.first-our-display img{
+.forth-our-display img {
     padding: 50px;
     width: 100%;
 }
-.second-daily-essentials{
+
+.first-our-display img {
+    padding: 50px;
+    width: 100%;
+}
+
+.second-daily-essentials {
     padding: 50px;
 }
-.daily-essentials-heading{
-   margin-bottom: 20px;
+
+.daily-essentials-heading {
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.hot-this-weekend,.hot-this-weekend-hidden{
+.hot-this-weekend,
+.hot-this-weekend-hidden {
     padding: 50px;
     background-color: #d6f0f3;
 }
-.hot-this-weekend-hidden{
+
+.hot-this-weekend-hidden,
+.lip-tint-balm-hidden {
     display: none;
 }
-.hot-this-weekend .lower-navdiv, .hot-this-weekend-hidden .lower-navdiv{
+
+.hot-this-weekend .lower-navdiv,
+.hot-this-weekend-hidden .lower-navdiv {
     margin: 20px 0;
 }
 
-.hot-this-weekend-content{
+.hot-this-weekend-content {
     display: flex;
-   
+
 }
-.hot-this-weekend-img{
+
+.hot-this-weekend-img {
     background-image: url("girlwithlipstick.jpg");
     width: 40%;
     background-repeat: no-repeat;
@@ -208,29 +240,37 @@ body{
     display: flex;
     align-items: end;
 }
-.hot-this-weekend-cards{
+
+.hot-this-weekend-cards {
     width: 60%;
 }
-.uppercontentonimage , .upperimagecontent{
+
+.uppercontentonimage,
+.upperimagecontent {
     margin: 20px;
     color: white;
 }
 
-.lip-tint-balm,.lip-tint-balm-hidden{
+.lip-tint-balm,
+.lip-tint-balm-hidden {
     padding: 50px
 }
-.lip-tint-balm-heading{
+
+.lip-tint-balm-heading {
     background-image: url("");
 }
-.lip-tint-balm-heading .upper-navdiv{
+
+.lip-tint-balm-heading .upper-navdiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.lip-tint-balm-heading .upper-navdiv h1{
+
+.lip-tint-balm-heading .upper-navdiv h1 {
     margin-bottom: 20px;
 }
-.lip-tint-balm-img{
+
+.lip-tint-balm-img {
     background-image: url("tint.jpg");
     width: 40%;
     background-repeat: no-repeat;
@@ -239,223 +279,310 @@ body{
     display: flex;
     align-items: end;
 }
-.lip-tint-balm-content{
+
+.lip-tint-balm-content {
     display: flex;
 }
-.lip-tint-balm-cards{
+
+.lip-tint-balm-cards {
     width: 60%;
 }
-.reliablity{
+
+.reliablity {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-  padding: 50px;
+    padding: 50px;
 }
-.reliablity i{
+
+.reliablity i {
     font-size: 60px;
 }
-.case1, .case2, .case3, .case4{
+
+.case1,
+.case2,
+.case3,
+.case4 {
     border: 2px solid whitesmoke;
     padding: 20px;
 }
-.daily-essentials-heading button,.lower-navdiv button,.uppercontentonimage button , .upperimagecontent button,.lip-tint-balm-heading .upper-navdiv button,.case1 button{
+
+.references {
+    display: flex;
+}
+
+.daily-essentials-heading button,
+.lower-navdiv button,
+.uppercontentonimage button,
+.upperimagecontent button,
+.lip-tint-balm-heading .upper-navdiv button,
+.case1 button {
     border: 2px solid #03a3b2;
     padding: 10px 20px;
     border-radius: 50px;
-   background-color: #03a3b2;
-   color: white;
+    background-color: #03a3b2;
+    color: white;
 }
-.footer{
+
+.footer {
     padding: 50px;
     background-color: black;
     color: white;
 }
 
-.upper-footer .about-company{
+.upper-footer .about-company {
     width: 100%;
     text-align: center;
     margin: 10px 0;
 }
-.upper-footer .contact-to-company{
+
+.upper-footer .contact-to-company {
     display: flex;
     align-items: start;
     justify-content: space-between;
     width: 100%;
 }
-.upper-footer ul{
+
+.upper-footer ul {
     list-style: none;
     padding-left: 0;
 }
-.lower-footer{
+
+.lower-footer {
     text-align: center;
 }
-.lower-footer a{
+
+.lower-footer a {
     text-decoration: none;
     color: white;
 }
-.card:hover{
+
+.card:hover {
 
     border: 2px solid black;
 }
-.col{
+
+.col {
     margin-bottom: 10px;
 }
-@media(min-width:937px){
-.hidden-menu{
-    display: none;
-}
-}
-@media(max-width:936px){
-    .third-combos-hidden,.hot-this-weekend-hidden, .lip-tint-balm-hidden{
-        display: block;
-    }
-    .third-combos, .hot-this-weekend, .lip-tint-balm{
+
+
+@media(min-width:937px) {
+    .hidden-menu {
         display: none;
     }
-    .autoplay-slider img{
+}
+
+@media(max-width:936px) {
+
+    .third-combos-hidden,
+    .hot-this-weekend-hidden,
+    .lip-tint-balm-hidden {
+        display: block;
+    }
+
+    .third-combos,
+    .hot-this-weekend,
+    .lip-tint-balm {
+        display: none;
+    }
+
+    .autoplay-slider img {
         height: auto;
     }
-    .your-info{
+
+    .your-info {
         width: 40%;
         font-size: larger;
     }
-    .text-body-secondary button , .categories-heading button {
-        font-size:1rem;
+
+    .text-body-secondary button,
+    .categories-heading button {
+        font-size: 1rem;
     }
-    .bottom-div, .searchbar{
+
+    .bottom-div,
+    .searchbar {
         display: none;
     }
-    #three-lines{
+
+    #three-lines {
         display: block;
     }
-    .top-div{
+
+    .top-div {
         justify-content: space-between;
     }
-    .hot-this-weekend-hidden .lower-navdiv button{
-        padding: 5px ;
-    }
-     .forth-our-display img, .first-our-display img{
-        padding: 20px 10px;
-    }
-    .second-all-categories,.third-combos-hidden,.second-daily-essentials,.hot-this-weekend-hidden, .lip-tint-balm-hidden, .reliablity, .footer{
-        padding: 20px 10px;
-    }
-    .lip-tint-balm-content, .hot-this-weekend-content{
-        display: block;
-    }
-    .lip-tint-balm-img, .lip-tint-balm-cards, .hot-this-weekend-img,.hot-this-weekend-cards{
-        width: 100%;
-    }
-    
-    .categories-heading , .combos-heading {
-       display: block;
-    }
-  
-    
-}
-@media(max-width:768px){
-    
-    .upper-footer .contact-to-company{
-        width: 100%;
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-  
-}
-@media(max-width:564px){
-   
-    .reliablity i{
-        font-size: 30px;
-    }
-    .case1 button{
+
+    .hot-this-weekend-hidden .lower-navdiv button {
         padding: 5px;
     }
 
+    .forth-our-display img,
+    .first-our-display img {
+        padding: 20px 10px;
+    }
+
+    .second-all-categories,
+    .third-combos-hidden,
+    .second-daily-essentials,
+    .hot-this-weekend-hidden,
+    .lip-tint-balm-hidden,
+    .reliablity,
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .lip-tint-balm-content,
+    .hot-this-weekend-content {
+        display: block;
+    }
+
+    .lip-tint-balm-img,
+    .lip-tint-balm-cards,
+    .hot-this-weekend-img,
+    .hot-this-weekend-cards {
+        width: 100%;
+    }
+
+    .categories-heading,
+    .combos-heading {
+        display: block;
+    }
+
     .reliablity {
+        display: block;
+
+    }
+
+    .case1 {
+        padding: 0;
+        border: none;
+        margin: 10px;
+    }
+
+
+}
+
+@media(max-width:768px) {
+
+    .upper-footer .contact-to-company {
+        width: 100%;
         display: grid;
         grid-template-columns: auto auto;
     }
-    .text-body-secondary button{
-       border: 2px solid palevioletred;
-      background-color: palevioletred;
+
+}
+
+@media(max-width:564px) {
+
+    .references {
+        display: block;
+
     }
-    .categories-heading button, .combos-heading button, .daily-essentials-heading button,.lower-navdiv button,.uppercontentonimage button , .upperimagecontent button,.lip-tint-balm-heading .upper-navdiv button,.case1 button{
+
+
+    .text-body-secondary button {
+        border: 2px solid palevioletred;
+        background-color: palevioletred;
+    }
+
+    .categories-heading button,
+    .combos-heading button,
+    .daily-essentials-heading button,
+    .lower-navdiv button,
+    .uppercontentonimage button,
+    .upperimagecontent button,
+    .lip-tint-balm-heading .upper-navdiv button,
+    .case1 button {
         padding: 5px;
         font-size: 12px;
     }
-    .hot-this-weekend-img, .lip-tint-balm-img{
+
+    .hot-this-weekend-img,
+    .lip-tint-balm-img {
         justify-content: center;
     }
-    .upper-footer .contact-to-company{
+
+    .upper-footer .contact-to-company {
         font-size: 10px;
     }
 }
 
 
 
-.four-dives i{
+.four-dives i {
     font-size: xx-large;
-   margin-right: 10px;
-   
+    margin-right: 10px;
+
 }
-.four-dives p{
+
+.four-dives p {
     position: fixed;
     z-index: 999;
-   background-color: pink;
-   padding: 10px;
-   border: 2px solid pink;
-   border-radius: 10px 0 0 10px;
-   transition: 0.3s;
-   margin-bottom: 0;
+    background-color: pink;
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 10px 0 0 10px;
+    transition: 0.3s;
+    margin-bottom: 0;
 }
-.p1{
+
+.p1 {
     top: 300px;
     right: -115px;
 }
-.p2{
+
+.p2 {
     top: 360px;
     right: -75px;
 }
-.p3{
+
+.p3 {
     top: 420px;
     right: -72px;
 }
-.p4{
+
+.p4 {
     top: 480px;
     right: -82px;
 }
 
-.four-dives p:hover{
+.four-dives p:hover {
     right: 0;
 }
-.more-about-us i, .more-about-us-cancel-btn i{
-    color:white;
+
+.more-about-us i,
+.more-about-us-cancel-btn i {
+    color: white;
     font-size: xx-large;
     position: fixed;
     left: 5px;
     bottom: 100px;
-   z-index: 999;
-   background: #0c474c;
-   border-radius: 50px;
+    z-index: 999;
+    background: #0c474c;
+    border-radius: 50px;
     padding: 10px 12px;
     border: 2px solid rgb(242, 60, 90);
     border-radius: 50px;
-   background-color:  rgb(242, 60, 90);
+    background-color: rgb(242, 60, 90);
 }
-.more-about-us-cancel-btn{
+
+.more-about-us-cancel-btn {
     display: none;
 }
-.whatsapp-contact i{
-    color:white;
+
+.whatsapp-contact i {
+    color: white;
     font-size: xx-large;
     position: fixed;
     right: 5px;
     bottom: 100px;
-   z-index: 999;
+    z-index: 999;
     padding: 10px 12px;
     border: 2px solid green;
     border-radius: 50px;
-   background-color: green;
+    background-color: green;
 }
 
 
@@ -465,28 +592,32 @@ body{
 
 /* Product.html file CSS */
 
-.productdiv1{
+.productdiv1 {
     display: flex;
-   margin: 100px;
+    margin: 100px;
 }
 
 #like-products {
     font-size: x-large;
-   color: red;
+    color: red;
 }
-.productdivimg{
+
+.productdivimg {
     width: 50%;
 }
-.productdivcontent{
+
+.productdivcontent {
     width: 50%;
     padding: 30px;
-}  
-.contentheading{
+}
+
+.contentheading {
     display: flex;
     align-items: start;
     justify-content: space-between;
 }
-.priceofproduct .discount{
+
+.priceofproduct .discount {
     padding: 5px;
     font-size: 15px;
     border: 2px solid hsl(340, 80%, 64%);
@@ -495,78 +626,113 @@ body{
     color: white;
     margin: 0 10px;
 }
+
 .priceofproduct {
     margin-bottom: 0;
 }
 
-.on-EMI{
+.on-EMI {
     display: flex;
 }
-.quantitydiv{
+
+.quantitydiv {
     margin: 20px;
 }
-.quantitydiv button{
+
+.quantitydiv button {
     padding: 0 5px;
 }
-.plus-minus{
-  padding: 5px 10px;
+
+.plus-minus {
+    padding: 5px 10px;
     width: fit-content;
     font-size: x-large;
     border: 2px solid black;
     border-radius: 50px;
 }
-.plus-minus button{
+
+.plus-minus button {
     border: none;
     background-color: white;
 }
 
-#value{
+#value {
     margin: 0 10px;
 }
 
-.desc_btn button{
+.desc_btn button {
     padding: 10px 20px;
     border: none;
     color: white;
-    background-color:#f04981;
+    background-color: #f04981;
 }
-.share-help a
-{
+
+.share-help a {
     margin: 10px;
     text-decoration: none;
     color: black;
 
 }
-.share-help i{
+
+.share-help i {
     margin-right: 5px;
 }
-.parent_div{
+
+.parent_div {
     margin: 100px;
 }
-.desc_btn{
-   
+
+.desc_btn {
+
     display: flex;
-     align-items: center;
-      justify-content: space-evenly;
-      margin: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px;
 }
-@media(max-width:987px){
-    .productdiv1, .desc_btn,.parent_div{
+.small_slider{
+    margin-top: 10px;
+   text-align: center;
+}
+.small_slider img:hover{
+border: 2px solid black;
+
+}
+
+@media(max-width:987px) {
+
+    .productdiv1,
+    .desc_btn,
+    .parent_div {
         margin: 20px 10px;
     }
-    
+
 }
-@media(max-width:768px){
-    .productdiv1{
+
+@media(max-width:768px) {
+    .productdiv1 {
         display: block;
-        
-    }
-    .productdivimg, .productdivcontent{
-        width: 100%;
-    }
-    .desc_btn{
-       flex-direction: column;
-       align-items: start;
     }
 
+    .productdivimg,
+    .productdivcontent {
+        width: 100%;
+    }
+
+    .productdivcontent {
+        padding: 20px 0;
+
+    }
+
+
+}
+
+@media(max-width:425px) {
+    .desc_btn {
+        display: block;
+    }
+
+    .desc_btn button {
+        margin: 10px 0;
+        width: 100%;
+    }
 }
