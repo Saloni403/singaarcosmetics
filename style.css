@@ -185,7 +185,7 @@ body {
 }
 
 .text-body-secondary button:hover {
-    background-color: rgb(184, 137, 153);
+    background-color: rgb(181, 54, 97);
     color: white;
 }
 
@@ -256,9 +256,9 @@ body {
     padding: 50px
 }
 
-.lip-tint-balm-heading {
+/* .lip-tint-balm-heading {
     background-image: url("");
-}
+} */
 
 .lip-tint-balm-heading .upper-navdiv {
     display: flex;
@@ -405,6 +405,13 @@ body {
     .searchbar {
         display: none;
     }
+    .top-div{
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background-color: white;
+    }
+    
 
     #three-lines {
         display: block;
@@ -481,12 +488,6 @@ body {
 
     }
 
-
-    .text-body-secondary button {
-        border: 2px solid palevioletred;
-        background-color: palevioletred;
-    }
-
     .categories-heading button,
     .combos-heading button,
     .daily-essentials-heading button,
@@ -551,6 +552,8 @@ body {
 .four-dives p:hover {
     right: 0;
 }
+
+
 
 .more-about-us i,
 .more-about-us-cancel-btn i {
