@@ -13,6 +13,7 @@ body {
 
 .logo {
     margin-left: 10px;
+  
 }
 
 .top-div {
@@ -23,6 +24,7 @@ body {
 
 .logo-img {
     width: 100px;
+    border: none;
 }
 
 .searchbar {
@@ -120,7 +122,7 @@ body {
 }
 
 .content1 {
-    background-color: #03a3b229;
+    background-color: #fde9ef;
 }
 
 .categories-heading {
@@ -135,11 +137,12 @@ body {
 }
 
 .second-all-categories img {
-    border: 2px solid #03a3b2;
+    border: 2px solid #b53661;
 }
 
 .second-all-categories .card-body {
-    background-color: #03a3b2;
+    background-color: #b53661;
+    border-radius: 0 0 5px 5px;
     color: white;
 }
 
@@ -162,15 +165,13 @@ body {
     border-radius: 50px;
 }
 
-.third-combos,
-.third-combos-hidden {
+.third-combos
+ {
     padding: 50px;
 
 }
 
-.third-combos-hidden {
-    display: none;
-}
+
 
 .card {
     margin: 10px;
@@ -182,6 +183,7 @@ body {
     border: none;
     font-size: 20px;
     background-color: white;
+    color: #b53661;
 }
 
 .text-body-secondary button:hover {
@@ -213,7 +215,7 @@ body {
 .hot-this-weekend,
 .hot-this-weekend-hidden {
     padding: 50px;
-    background-color: #d6f0f3;
+    background-color: #fde9ef;
 }
 
 .hot-this-weekend-hidden,
@@ -359,7 +361,7 @@ body {
 
 .card:hover {
 
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .col {
@@ -375,7 +377,7 @@ body {
 
 @media(max-width:936px) {
 
-    .third-combos-hidden,
+    
     .hot-this-weekend-hidden,
     .lip-tint-balm-hidden {
         display: block;
@@ -431,7 +433,7 @@ body {
     }
 
     .second-all-categories,
-    .third-combos-hidden,
+   
     .second-daily-essentials,
     .hot-this-weekend-hidden,
     .lip-tint-balm-hidden,
@@ -512,22 +514,7 @@ body {
 
 
 
-.four-dives i {
-    font-size: xx-large;
-    margin-right: 10px;
 
-}
-
-.four-dives p {
-    position: fixed;
-    z-index: 999;
-    background-color: pink;
-    padding: 10px;
-    border: 2px solid pink;
-    border-radius: 10px 0 0 10px;
-    transition: 0.3s;
-    margin-bottom: 0;
-}
 
 .p1 {
     top: 300px;
@@ -549,9 +536,7 @@ body {
     right: -82px;
 }
 
-.four-dives p:hover {
-    right: 0;
-}
+
 
 
 
@@ -564,7 +549,7 @@ body {
     bottom: 100px;
     z-index: 999;
     background: #0c474c;
-    border-radius: 50px;
+   
     padding: 10px 12px;
     border: 2px solid rgb(242, 60, 90);
     border-radius: 50px;
@@ -588,6 +573,18 @@ body {
     background-color: green;
 }
 
+.mobile-btn i {
+    color: blue;
+    font-size: xx-large;
+    position: fixed;
+    right: 5px;
+    bottom: 180px;
+    z-index: 999;
+    padding: 10px 12px;
+    border: 2px solid blue;
+    border-radius: 50px;
+    background-color: white;
+}
 
 
 
@@ -697,10 +694,13 @@ body {
    text-align: center;
 }
 .small_slider img:hover{
-border: 2px solid black;
+border: 1px solid black;
+
 
 }
-
+.card:hover{
+    outline: 2px solid #b53661;
+}
 @media(max-width:987px) {
 
     .productdiv1,
